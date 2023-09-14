@@ -10,6 +10,7 @@ h1, h2, h3, p, ul {
     color: white;
     text-align: center;
 }
+
 .space{
     width: 50%;
     margin: auto;
@@ -33,9 +34,15 @@ li{
     padding: 5px;
 }
 
-.container {
-    width: 100%; 
+.container{
     text-align: center;
+}
+.centerUl{
+    display: inline-block;
+    text-align: left;
+}
+a{
+    color: red;
 }
 
 footer {
