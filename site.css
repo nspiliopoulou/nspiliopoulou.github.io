@@ -6,20 +6,23 @@ body{
     flex-direction: column;
 }
 
-
-/* other */
 h1, h2, p, ul {
     color: white;
     text-align: center;
 }
+.space{
+    width: 50%;
+    margin: auto;
+}
 
-.images, .main{
+img{
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-
+  padding-bottom: 20px;
+  width: 250px;
+  height: 250px;
 }
 
 ul{
@@ -28,40 +31,9 @@ ul{
     margin: 15px;
 }
 
-img{
-    padding-bottom: 20px;
-    width: 250px;
-    height: 250px;
-}
-
-#returnLink {
-    text-align: center;
-}
-
-
-#job-image{
-    padding-bottom: 10px;
-    text-align: center;
-    display: block;
-    margin: auto;
-    max-width: 30%;
-    width: 250px;
-    height: 250px;
-}
-
 .container {
     width: 100%; 
     text-align: center;
-  }
-  
-.centered-text {
- max-width: 70%; 
- margin: 0 auto; 
-}
-
-.places{
-    text-align: justify;
-    margin-bottom: 20px;
 }
 
 footer {
